@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(4, 11, 31);
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+.card{
+    background: linear-gradient(145deg, #2a2a2a, #383838);
+    color: white; 
+    border-radius: 10px; 
+    
+}
+
+.card:hover {
+    transform: scale(1.15);
+    border: solid 0.5px rgb(32, 82, 221); 
+    box-shadow: 0 4px 8px 0 rgba(25, 0, 255, 0.2), 0 6px 20px 0 rgba(47, 0, 255, 0.19);
+}
